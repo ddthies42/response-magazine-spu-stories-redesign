@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SPU Stories</title>
+    <meta name="author" content="Thy Tran">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet'>
+</head>
+<body>
+
+<!--MAIN -->
+<!--HEADER -->
+<header>
+    <div class="search-tool"><img src="images/icon-search-36px.svg" alt="Search" style="margin-left: 12px;"></div>
+    <!--    will appear in mobile-->
+    <a class="response-nav" href="response-index.html">
+        <span>Response</span>
+    </a>
+
+    <div class="top-nav">
+        <!--        Left-aligned items-->
+        <div class="top-nav-left"><a href="spu-stories.html"><img src="images/spu-stories-logo.svg" alt="SPU Stories"></a></div>
+        <!--        Left-aligned items-->
+        <!--        Right-aligned items-->
+        <div class="top-nav-right">
+            <a href="https://stories.spu.edu/topic/response-magazine/"><img src="images/response-logo.svg" alt="Response Magazine Logo" width="120"></a>
+            <img src="images/icon-search-36px.svg" alt="Search" style="margin-left: 12px;">
+        </div>
+        <!--        Right-aligned items-->
+    </div>
+
+    <nav id="response-nav-bar" role="navigation" class>
+        <a class="menu-items" href="#">
+            <span>Campus News</span>
+        </a>
+        <a class="menu-items" href="#">
+            <span>Alumni News</span>
+        </a>
+        <a class="menu-items" href="#">
+            <span>Features</span>
+        </a>
+        <a class="menu-items" href="#">
+            <span>Reflections</span>
+        </a>
+        <a class="menu-items" href="#">
+            <span>Life at SPU</span>
+        </a>
+        <a class="menu-items" href="contact.html">
+            <span>Departments</span>
+        </a>
+    </nav>
+    <div id="menu-item">
+        <a class="menu-items" href="#">
+            <span>Campus</span>
+        </a>
+        <a class="menu-items" href="#">
+            <span>Alumni</span>
+        </a>
+        <a class="menu-items" href="#">
+            <span>Features</span>
+        </a>
+        <a class="menu-items" href="#">
+            <span>Notes</span>
+        </a>
+        <a class="menu-items" href="#">
+            <span>About</span>
+        </a>
+        <a class="menu-items" href="contact.html">
+            <span>Contact Us</span>
+        </a>
+    </div>
+    <!--    HAMBURGER-->
+    <button id="hamburger" class>
+        <div>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </button>
+</header>
+<!--HEADER -->
+<main role="main" class="main-content">
+    <!--FEATURED CONTENT-->
+    <section class="stories-featured-content">
+        <div>
+            <div class="stories-featured-img"><img src="images/spu-stories/megan-kitt-2-scaled_1210x580_acf_cropped.jpg"></div>
+            <div class="featured-article">
+                <a href="#">
+                    <h1>Designing a fair-trade fashion company</h1>
+                    <h4>What was it like to walk down the runway as a “designer to watch” at New York Fashion Week (NYFW) in September?</h4>
+                    <p>By Lee Fleisher - October 27, 2022</p>
+                </a>
+            </div>
+        </div>
+        <div>
+            <div class="popular-article-sec">
+                <div class="popular-header">
+                    <div class="featured-section-header">Popular Articles</div>
+                    <a class="popular-view-more" href="#">View More</a>
+                </div>
+                <div class="popular-column">
+                    <a class="popular-article-card" href="#">
+                        <div><img src="images/article-placeholder.jpeg"></div>
+                        <div class="text">
+                            <div class="heading-content">
+                                <div class="category">How To</div>
+                                <div class="title">FAQ: What do I need to know about transferring to SPU?</div>
+                            </div>
+                            <div class="date">February 2023</div>
+                        </div>
+                    </a>
+                    <a class="popular-article-card" href="#">
+                        <div><img src="images/article-placeholder.jpeg"></div>
+                        <div class="text">
+                            <div class="heading-content">
+                                <div class="category">How To</div>
+                                <div class="title">How to pay for tuition: a monthly breakdown</div>
+                            </div>
+                            <div class="date">February 2023</div>
+                        </div>
+                    </a>
+                    <a class="popular-article-card" href="#">
+                        <div><img src="images/article-placeholder.jpeg"></div>
+                        <div class="text">
+                            <div class="heading-content">
+                                <div class="category">Student Life</div>
+                                <div class="title">Three outdoor adventures in the Seattle area</div>
+                            </div>
+                            <div class="date">January 2023</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="response-latest-sec">
+                <div class="featured-section-header">Response Latest Issue</div>
+                <a class="response-latest-row" href="#">
+                    <div class="response-latest-cover"><img src="images/response-cover-placeholder.jpg"></div>
+                    <div class="text">
+                        <div class="header">Faith & Work</div>
+                        <div class="season">Fall/Winter 2022</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--FEATURED CONTENT-->
+
+    <!--LATEST ARTICLES-->
+    <section class="body-section">
+        <div class="section-header">Latest Articles</div>
+        <div class="issue-article-container">
+            <a href="#" title="" class="article-card">
+                <div class="article-image"><img src="images/article-placeholder.jpeg"></div>
+                <div class="text">
+                    <div class="heading-content">
+                        <div class="category">THE SPU VOICES PODCAST</div>
+                        <div class="title">“Find Your Calling,” with Lori Brown ’20</div>
+                    </div>
+                    <div class="date">February 2023</div>
+                </div>
+            </a>
+            <a href="#" title="" class="article-card">
+                <div class="article-image"><img src="images/article-placeholder.jpeg"></div>
+                <div class="text">
+                    <div class="heading-content">
+                        <div class="category"></div>
+                        <div class="title">Less artist, more the artwork of God</div>
+                    </div>
+                    <div class="date">February 2023</div>
+                </div>
+            </a>
+            <a href="#" title="" class="article-card">
+                <div class="article-image"><img src="images/article-placeholder.jpeg"></div>
+                <div class="text">
+                    <div class="heading-content">
+                        <div class="category"></div>
+                        <div class="title">Athlete and design student Natalie Hoff is ready to “Just do it” at Nike</div>
+                    </div>
+                    <div class="date">February 2023</div>
+                </div>
+            </a>
+            <a href="#" title="" class="article-card">
+                <div class="article-image"><img src="images/article-placeholder.jpeg"></div>
+                <div class="text">
+                    <div class="heading-content">
+                        <div class="category">THE SPU VOICES PODCAST</div>
+                        <div class="title">“Discovering Dyscalculia,” with Laura M. Jackson ’02</div>
+                    </div>
+                    <div class="date">February 2023</div>
+                </div>
+            </a>
+            <a href="#" title="" class="article-card">
+                <div class="article-image"><img src="images/article-placeholder.jpeg"></div>
+                <div class="text">
+                    <div class="heading-content">
+                        <div class="category"></div>
+                        <div class="title">Transferring schools and adding education to a STEM background</div>
+                    </div>
+                    <div class="date">February 2023</div>
+                </div>
+            </a>
+            <a href="#" title="" class="article-card">
+                <div class="article-image"><img src="images/article-placeholder.jpeg"></div>
+                <div class="text">
+                    <div class="heading-content">
+                        <div class="category">THE SPU VOICES PODCAST</div>
+                        <div class="title">“The Legacy Imperative: Part I,” with Bob Petterson</div>
+                    </div>
+                    <div class="date">January 2023</div>
+                </div>
+            </a>
+            <a href="#" title="" class="article-card">
+                <div class="article-image"><img src="images/article-placeholder.jpeg"></div>
+                <div class="text">
+                    <div class="heading-content">
+                        <div class="category">THE SPU VOICES PODCAST</div>
+                        <div class="title">“Nine Advent Lessons,” with Amanda Heath Stubbert ’95 and Corbett Stubbert ’97</div>
+                    </div>
+                    <div class="date">December 2022</div>
+                </div>
+            </a>
+            <a href="articles/surrendering-life-complications.html" title="" class="article-card">
+                <div class="article-image"><img src="images/article-placeholder.jpeg"></div>
+                <div class="text">
+                    <div class="heading-content">
+                        <div class="category">Response</div>
+                        <div class="title">SPU houses largest work and faith library</div>
+                    </div>
+                    <div class="date">November 2022</div>
+                </div>
+            </a>
+        </div>
+    </section>
+    <!--LATEST ARTICLES-->
+
+    <!--SECOND FEATURED ARTICLE-->
+    <a class="second-featured-article" href="#">
+       <div class="description">
+           <div class="title">Answering God’s call to serve Ukrainian orphans</div>
+           <div class="date">December 2022</div>
+       </div>
+    </a>
+    <!--SECOND FEATURED ARTICLE-->
+
+    <!--FOOTER-->
+    <footer class="footer-container">
+        <div class="footer-wrapper">
+            <a href="spu-stories.html"><img src="images/spu-stories-logo.svg" alt="SPU Stories" width="250"></a>
+            <div class="footer-items-container">
+                <div class="footer-items-wrapper">
+                    <a class="text" href="manage-subscription.html">contact us</a>
+                </div>
+                <div class="footer-items-wrapper">
+                    <a class="text" href="contact.html">about spu stories</a>
+                </div>
+                <div class="footer-items-wrapper">
+                    <a class="text" href="#">visit  spu</a>
+                </div>
+                <div class="footer-items-wrapper">
+                    <a class="text" href="#">become a student</a>
+                </div>
+                <div class="footer-items-wrapper">
+                    <a class="text" href="#">submit a story idea</a>
+                </div>
+            </div>
+            <div class="social-media-container">
+                <img src="images/icon--facebook.svg">
+                <img src="images/icon--twitter.svg">
+                <img src="images/icon--instagram.svg">
+                <img src="images/icon--youtube.svg">
+                <img src="images/icon--linkedin.svg">
+                <img src="images/icon--tiktok.svg">
+            </div>
+            <div class="copyright">© 2022 Seattle Pacific University</div>
+        </div>
+        <div class="footer-image">
+            <img src="images/stories-footer.jpg">
+        </div>
+    </footer>
+    <!--FOOTER-->
+</main>
+<!--MAIN -->
+
+<script>
+    let hamburger = document.getElementById('hamburger');
+    let nav = document.getElementById('response-nav-bar');
+    hamburger.addEventListener('click', function() {
+        if(hamburger.classList.contains('open')) {
+            hamburger.classList.remove('open');
+            nav.classList.remove('open');
+        } else {
+            hamburger.classList.add('open');
+            nav.classList.add('open');
+        }
+    });
+</script>
+
+</body>
+</html>
